@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f5f5;
+  color: #3b0a0a;
+}
+
+header {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+  color: blue;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  background: white;
+  max-width: 1000px;
+  margin: 30px auto;
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info, .contact-form {
+  flex: 1 1 400px;
+  padding: 20px;
+}
+
+.contact-info h2 {
+  color: #000770;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #00704A;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #00025a;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: red;
+  font-size: 0.9em;
+  color: blue;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+  .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 20px;
+    
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Amazon Travel Agency</title>
+<link rel="stylesheet" href="contact us.css">
+</head>
+<body>
+
+<header>
+  <h1>Amazon Travel Agency</h1>
+  <p>A place of breathtaking views and a sense of mystery.</p>
+ <ul class="links " style="float: right; display: flex; gap: 10px; text-decoration: none; list-style: none;">
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="about us.html">ABOUT US</a></li>
+                        <li><a href="contact us.html">CONTACTS US</a></li>
+                        <li><a href="destinations.html">DESTINATIONS</a></li>
+                    </ul>
+</header>
+
+<section class="contact-container">
+  <div class="contact-info">
+    <h2>Contact Information</h2>
+    <p><strong>Address:</strong> 254 Amazon River Rd, Manaus, Brazil</p>
+    <p><strong>Phone:</strong> +254 92 1234 5678</p>
+    <p><strong>Email:</strong> info@amazontravel.com</p>
+    <p><strong>Hours:</strong> Mon - Fri, 8am - 5pm</p>
+  </div>
+
+  <div class="contact-form" style="display: flex; flex-direction: column; width: 100%; max-width: 600px; margin: auto;">
+    <h2>Send Us a Message</h2>
+    <form action="#" method="POST">
+      <label for="name">Name *</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email *</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" />
+
+      <label for="message">Message *</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Amazon Travel Agency. All rights reserved.
+</footer>
+
+</body>
+</html>

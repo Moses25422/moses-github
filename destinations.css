@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(9, 115, 50);
+}
+
+nav .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+nav .links li, nav .links a {
+    margin-right: 20px;
+}
+
+ol.Z {
+    text-align: center;
+}
+
+ul.B {
+    text-align: center;
+}
+
+#A {  
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+ table{
+    width: 20em;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    
+
+  }
+  th, td {
+    border: 2px solid black;
+  }
+  th{
+   background-color: azure; background-color: azure;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  td{
+background-color:rgb(128, 128, 128);
+color: white;
+font-size: 20px;
+font-weight: bold;
+padding: 10px;
+
+  }
+
+nav .links a {
+    text-decoration: none;
+    color: black;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+  
