@@ -3,7 +3,7 @@
 This portfolio was built as part of the PLP Academy Hackathon (July 2025 Cohort).
 
 ## 🌐 Live Site
-[Click here to view](https://moses25422.github.io/moses-github/)
+[Click here to view](https://moses-github-m2o6.vercel.app/)
 
 ## Tech Used
 - HTML5
